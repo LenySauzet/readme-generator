@@ -1,3 +1,4 @@
+import AngledCanvasForm from './AngledCanvasForm';
 import Templates from './templates';
 import { ScrollArea } from './ui/scroll-area';
 
@@ -15,7 +16,7 @@ const SettingsContent = () => {
         <p className="text-sm text-muted-foreground/50 uppercase shrink-0 font-departure">
           Form
         </p>
-        <form className="flex flex-col gap-3 mt-3">
+        {/* <form className="flex flex-col gap-3 mt-3">
           <label
             className="text-xs text-muted-foreground"
             htmlFor="input-example"
@@ -28,7 +29,8 @@ const SettingsContent = () => {
             className="border rounded-md px-2 py-1"
             placeholder="Entrez quelque chose..."
           />
-        </form>
+        </form> */}
+        <AngledCanvasForm />
       </div>
     </aside>
   );

@@ -15,12 +15,12 @@ export default function Home() {
         </div>
       )}
 
-      <div className="flex-1 flex flex-col gap-2 min-h-0 overflow-hidden">
-        <p className="text-sm text-muted-foreground/50 shrink-0 uppercase font-departure">
+      <div className="flex-1 flex flex-col gap-2">
+        <p className="text-sm text-muted-foreground/50 uppercase font-departure">
           Preview
         </p>
 
-        <div className="border rounded-lg flex-1 min-h-0 flex flex-col items-center justify-center relative bg-card/50 p-4 md:p-6 overflow-hidden" >
+        <div className="border rounded-lg flex-1 flex flex-col items-center justify-center relative bg-card/50 p-4 overflow-hidden">
           <div className="opacity-10 w-full h-full -z-10 absolute bg-[radial-gradient(var(--muted-foreground)_1px,transparent_0)] bg-size-[10px_10px]" />
 
           <div className="absolute top-5 right-5 flex items-center gap-4 z-10">
@@ -53,6 +53,7 @@ export default function Home() {
               </span>
             </div>
           </div>
+          
         </div>
       </div>
     </main>
